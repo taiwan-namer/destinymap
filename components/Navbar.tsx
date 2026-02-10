@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Compass, BookOpen } from 'lucide-react';
+import { Moon, BookOpen } from 'lucide-react';
 
 export default function Navbar() {
   return (
@@ -9,7 +9,9 @@ export default function Navbar() {
           href="/"
           className="flex items-center gap-2 text-white font-semibold hover:text-purple-300 transition-colors"
         >
-          <Compass className="w-5 h-5 text-purple-400" />
+          <span className="flex items-center justify-center w-9 h-9 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 shrink-0">
+            <Moon className="w-5 h-5 text-white" strokeWidth={1.5} />
+          </span>
           DestinyMap
         </Link>
         <nav className="flex items-center gap-6">
