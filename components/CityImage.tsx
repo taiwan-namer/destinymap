@@ -37,6 +37,7 @@ const CITY_MAPPING: Record<string, string> = {
 // ❄️ 特定城市用固定圖片（例如維基封面是地圖時，改用更符合情境的圖）
 const CUSTOM_IMAGES: Record<string, string> = {
   "北海道": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=1000&auto=format&fit=crop", // 北海道雪景
+  "沖繩": "https://images.unsplash.com/photo-1590559899731-a382839e5549?q=80&w=1000&auto=format&fit=crop", // 沖繩海景
 };
 
 // 🏞️ 2. 多樣化保底圖庫 (不再只有一張紅色峽谷)
